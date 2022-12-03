@@ -1,0 +1,202 @@
+
+#Header{
+ display: flex;
+ background-color: #151515;
+ color: white;
+  width: 900px;
+}
+.top{
+  width: 20px;
+}
+#body{
+    margin: 0%;
+}
+.toptext-button{
+  display: inline-block;
+  padding-right: 300px;
+}
+#Heading{
+    font-size: 100px;
+    padding-left: 200px;
+    width: 100px;
+    height: 20px;
+}
+  #footer{
+    background-color: #151515;
+    color: white;
+    display: flex;
+  }
+  .grid-img{
+    display: grid;
+  grid-gap:.5em;
+  grid-template-columns: 1fr 30% 20%;
+  grid-template-areas: 
+  "image1 image2"
+  "image1 image3"
+  ;
+  } 
+  .grid-img > div:first-child{
+    grid-area: image1;
+    height: 450px;
+  }
+
+  .come{
+    background-color: #151515;
+    color: white;
+    display: inline-block;
+    width: 350px;
+    text-align: center;
+  height: 200px;
+       
+  }
+  #grid-1{
+    height: 400px;
+    
+    width: 450px;
+    
+  }
+  .come-img{
+    display: inline-block;
+    --gap: 10px;
+    padding-top: 400px;
+    padding-right: 20px;
+  }
+  
+
+   #footer2{
+    padding-left: 100px;
+    padding-top: 20px;
+    text-align: center;
+    width: 300px;
+   }
+   #svg{
+    display: flex;
+    padding-left: 100px;
+   }
+
+   .top{
+    display: flex;
+    height: 500%;
+   }
+   .img{
+    height: 500px;
+    width: 500px
+     
+   }
+   .top-text{
+    width: 295px;
+    padding-left: 100px;
+    padding-top: 200px;
+   }
+   /* .middle-section{
+    display: grid;
+  grid-template-columns: calc(66% - 5px) calc(34% - 5px);
+  grid-template-rows:    calc(50% - 5px) calc(50% - 5px);
+  column-gap: 50%;
+  grid-gap: .5em;
+   
+   } */
+   .Top-section{
+    display: flex;
+      
+   }
+   .your-day{
+     margin-bottom: 100px;
+     height: 200px;
+    display: inline-block;
+    width: auto;
+    align-content: justify;
+    --gap: 20px;
+   }
+   #wonder{
+    width: 200px;
+    padding-right: 500px;
+
+   }
+    
+   #Location-button{
+    height: 200px;
+    font-size: 30px;
+    width: 400px;
+    color: white;
+    text-align: justify;
+    background: linear-gradient(90deg, #151515 70%,  #D5966C 30%);
+    
+  }
+   .location-middle{
+    background-color: #151515;
+    color: white;
+    display: flex;
+    padding: 0;
+    height: 500px;
+   }
+   .button-svg{
+    padding-left: 100px;
+    padding-top: 10px;
+    font-size: 10px;
+   }
+   svg {
+    color: white;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 10px;
+   }
+
+   .Home{
+     height: 50px;
+     font-size: 30px;
+     width: 400px;
+     color: white;
+     text-align: justify;
+     background: linear-gradient(-90deg, #151515 75%, #D5966C 20%);
+
+   }
+    .svg1{
+      padding-right: 70px;
+    }
+    .address{
+      width: 80px;
+      padding-left: 200px;
+       padding-top: 50px;
+    }
+    .opened-gallery{
+      width: 400px;
+      padding-left: 200px;
+      padding-top: 70px;
+    }
+
+    .OUR{
+      font-size: 30PX;
+      width: 30px;
+      padding-left: 100px;
+    }
+
+  .address-opened{
+    display: inline-block;
+     padding-left: 400px;
+     height: auto;
+  }
+  .king-street{
+    font-size: 50px;
+    color: #D5966C;
+    padding-left: 200px;
+  }
+  .location-footer{
+    background-color: #D5966C;
+    color: #151515;
+    display: flex;
+  }
+  #location-footer2{
+    width: 400px;
+    display: flex;
+    padding-left: 250px;
+    
+  }
+  #location-footer1{
+    padding-left: 100px;
+    width: 150px;
+    font-size: 30px;
+  }
+  #svg2{
+    color: #151515;
+  }
